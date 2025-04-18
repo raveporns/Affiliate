@@ -1,0 +1,2 @@
+p, admin, /api/data, GET
+p, affiliate, /api/data, GET
