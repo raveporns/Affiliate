@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  height: 98vh;
+  width: 100vw;
+}
+
+#left {
+    width: 30vw;
+  background-color: #303441; /* สีพื้นหลังของคอลัมน์ซ้าย */
+  padding: 20px;
+}
+
+#right {
+  width: 60vw;
+  background-color: #e0e0e0; /* สีพื้นหลังของคอลัมน์ขวา */
+  padding: 20px;
+}
+
+.bg-homepage {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+#row-container{
+    display: flex ;
+    flex-wrap: nowrap; 
+    margin-top: 20px;
+}
+
+.square-logo{
+    /* margin-top: 5px; */
+    h2{
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+        margin-top: 15px;
+    }
+    height: 10vh;
+    width: 20vw;
+    /* background-color: rgb(0, 115, 255); */
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.btn{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 25vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255) !important;
+    p{
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+}
+
